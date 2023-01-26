@@ -1,5 +1,5 @@
 # Desktop app for ChatGPT
-[![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg)](https://digitalocean.com)
+(https://assets.digitalocean.com/articles/alligator/boo.svg)](https://digitalocean.com)
 
 Bring the power of ChatGPT to your fingertips with this sleek menubar app!
 
