@@ -40,14 +40,11 @@ app.on("ready", () => {
 
   mb.on("ready", () => {
     const { window } = mb;
-
-
     if (process.platform !== "darwin") {
       window.setSkipTaskbar(true);
     } else {
       app.dock.hide();
     }
-
     const contextMenuTemplate = [
        {
         label: "Reload",
@@ -86,7 +83,6 @@ app.on("ready", () => {
         : null;
     });
     const menu = new Menu();
-
     globalShortcut.register("CommandOrControl+Shift+a", () => {
       if (window.isVisible()) {
         mb.hideWindow();
@@ -96,17 +92,10 @@ app.on("ready", () => {
           mb.app.show();
         }
         mb.app.focus();
-      }
-    });
-
-    Menu.setApplicationMenu(menu);
-
-    // open devtools
-    // window.webContents.openDevTools();
-
+      }});
+   Menu.setApplicationMenu(menu);
     console.log("Menubar app is ready.");
   });
-
   app.on("web-contents-created", (e, contents) => {
     if (contents.getType() == "webview") {
       // open link with external browser in webview
@@ -114,12 +103,11 @@ app.on("ready", () => {
         e.preventDefault();
         shell.openExternal(url);
       });
-      // set context menu in webview
       contextMenu({
         window: contents,
       });
-
-      // we can't set the native app menu with "menubar" so need to manually register these events
+      // we can't set the native app menu with "menubar" 
+      // so need to manually register these events
       // register cmd+c/cmd+v events
       contents.on("before-input-event", (event, input) => {
         const { control, meta, key } = input;
@@ -131,37 +119,20 @@ app.on("ready", () => {
         if (key === "y") contents.redo();
         if (key === "q") app.quit();
         if (key === "r") contents.reload();
-      });
-    }
-  });
+      }
+      );}});
 
   if (process.platform == "darwin") {
     // restore focus to previous app on hiding
     mb.on("after-hide", () => {
-      mb.app.hide();
-    });
-  }
-
-  // open links in new window
-  // app.on("web-contents-created", (event, contents) => {
-  //   contents.on("will-navigate", (event, navigationUrl) => {
-  //     event.preventDefault();
-  //     shell.openExternal(navigationUrl);
-  //   });
-  // });
-
-  // prevent background flickering
+      mb.app.hide();});
+    }
+ // prevent background flickering
   app.commandLine.appendSwitch(
     "disable-backgrounding-occluded-windows",
-    "true"
-  );
-});
-
-// Quit when all windows are closed, except on macOS. There, it's common
-// for applications and their menu bar to stay active until the user quits
-// explicitly with Cmd + Q.
+    "true");}
+    );
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") {
-    app.quit();
-  }
-});
+    app.quit();}}
+    );
