@@ -1,5 +1,5 @@
 # Desktop app for ChatGPT
-
+<img src="[https://github.com/GeekAbdelouahed/flutter-reaction-button/raw/doc/images/Preview.png](https://github.com/SpruceVedant/ChatGpt-openAi/blob/main/images/1_3Xb43WwoeYwQIAKYsCQg6g.png)"/>
 Bring the power of ChatGPT to your fingertips with this sleek menubar app!
 
 Unleash the full potential of language processing with our new menubar app. Get instant access to ChatGPT's advanced capabilities, right from your menu bar. Imagine having the ability to generate human-like text, answer questions, and even complete tasks, all at the click of a button. Don't settle for basic language processing, upgrade to ChatGPT and elevate your writing, research, or business needs to the next level.
