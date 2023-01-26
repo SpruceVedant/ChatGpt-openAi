@@ -9,6 +9,10 @@ Effortlessly access ChatGPT from anywhere with our quick-open shortcut! Simply p
 
 Imagine having the ability to generate human-like text, answer questions, and even complete tasks, all at the click of a button. And with our quick-open shortcut, Ctrl+Shift+G (on Windows), accessing ChatGPT has never been easier. No need to search through cluttered menus, our shortcut puts the power of ChatGPT right at your fingertips, ready to assist you at a moment's notice. Upgrade your productivity with - ChatGPT menubar app.
 
+# Credits
+Powered by OpenAI's advanced language model, ChatGPT.
+All copyrights goes to OpenAI
+
 
 
 
