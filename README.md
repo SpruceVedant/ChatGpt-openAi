@@ -1,5 +1,5 @@
 # Desktop app for ChatGPT
-![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fgeekculture%2Fopenai-released-chatgpt-an-incredibly-smart-chatbot-889b59968383&psig=AOvVaw2FKZF3H-ZcsRZj7jd2yEuk&ust=1674830434534000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCF8Nq75fwCFQAAAAAdAAAAABBg "a title")
+![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fgeekculture%2Fopenai-released-chatgpt-an-incredibly-smart-chatbot-889b59968383&psig=AOvVaw2FKZF3H-ZcsRZj7jd2yEuk&ust=1674830434534000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCF8Nq75fwCFQAAAAAdAAAAABBg)
 
 Bring the power of ChatGPT to your fingertips with this sleek menubar app!
 
