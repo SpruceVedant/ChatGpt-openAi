@@ -49,19 +49,18 @@ app.on("ready", () => {
     }
 
     const contextMenuTemplate = [
-      // add links to github repo and vince's twitter
+       {
+        label: "Reload",
+        accelerator: "Command+R",
+        click: () => {
+          window.reload();
+        },
+      },
       {
         label: "Quit",
         accelerator: "Command+Q",
         click: () => {
           app.quit();
-        },
-      },
-      {
-        label: "Reload",
-        accelerator: "Command+R",
-        click: () => {
-          window.reload();
         },
       },
       {
@@ -73,18 +72,7 @@ app.on("ready", () => {
       {
         type: "separator",
       },
-      {
-        label: "View on GitHub",
-        click: () => {
-          shell.openExternal("https://github.com/vincelwt/chatgpt-mac");
-        },
-      },
-      {
-        label: "Author on Twitter",
-        click: () => {
-          shell.openExternal("https://twitter.com/vincelwt");
-        },
-      },
+     
     ];
 
     tray.on("right-click", () => {
