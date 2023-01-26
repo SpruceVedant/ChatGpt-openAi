@@ -1,8 +1,8 @@
 {
-  "name": "chatgpt-openAi",
+  "name": "chatgpt-openai",
   "productName": "chatgpt-openAi",
   "version": "0.0.5",
-  "description": "Menubar app for ChatGPT",
+  "description": "ChatGPT that lives on your menubar/taskbar",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
