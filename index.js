@@ -1,7 +1,6 @@
 require("update-electron-app")();
 
 const { menubar } = require("menubar");
-// const Nucleus = require("nucleus-analytics");
 
 const path = require("path");
 const {
