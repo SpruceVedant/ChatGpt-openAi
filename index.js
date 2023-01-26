@@ -83,7 +83,7 @@ app.on("ready", () => {
         : null;
     });
     const menu = new Menu();
-    globalShortcut.register("CommandOrControl+Shift+a", () => {
+    globalShortcut.register("Control+Shift+a", () => {
       if (window.isVisible()) {
         mb.hideWindow();
       } else {
