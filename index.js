@@ -48,14 +48,14 @@ app.on("ready", () => {
     const contextMenuTemplate = [
        {
         label: "Reload",
-        accelerator: "Command+R",
+        accelerator: "Control+R",
         click: () => {
           window.reload();
         },
       },
       {
         label: "Quit",
-        accelerator: "Command+Q",
+        accelerator: "Control+Q",
         click: () => {
           app.quit();
         },
