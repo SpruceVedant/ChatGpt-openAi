@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-openai",
   "productName": "chatgpt-openAi",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "ChatGPT that lives on your menubar/taskbar",
   "main": "index.js",
   "scripts": {
