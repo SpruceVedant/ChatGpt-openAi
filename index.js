@@ -106,9 +106,6 @@ app.on("ready", () => {
       contextMenu({
         window: contents,
       });
-      // we can't set the native app menu with "menubar" 
-      // so need to manually register these events
-      // register cmd+c/cmd+v events
       contents.on("before-input-event", (event, input) => {
         const { control, meta, key } = input;
         if (!control && !meta) return;
@@ -127,7 +124,6 @@ app.on("ready", () => {
     mb.on("after-hide", () => {
       mb.app.hide();});
     }
- // prevent background flickering
   app.commandLine.appendSwitch(
     "disable-backgrounding-occluded-windows",
     "true");}
