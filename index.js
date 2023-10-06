@@ -71,7 +71,7 @@ app.on("ready", () => {
       },
      
     ];
-
+// tray
     tray.on("right-click", () => {
       mb.tray.popUpContextMenu(Menu.buildFromTemplate(contextMenuTemplate));
     });
