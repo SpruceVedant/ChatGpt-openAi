@@ -19,7 +19,7 @@ const image = nativeImage.createFromPath(
 
 app.on("ready", () => {
   const tray = new Tray(image);
-
+// Menubar 
   const mb = menubar({
     browserWindow: {
       icon: image,
@@ -69,7 +69,6 @@ app.on("ready", () => {
       {
         type: "separator",
       },
-     
     ];
 // tray
     tray.on("right-click", () => {
